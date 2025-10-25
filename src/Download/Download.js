@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
-import Navbar from "../Navbar/Navbar" 
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import "./Download.css";
 import "../Home/Home.css";
 
@@ -43,6 +44,8 @@ const Download = () => {
               
                 </div>
             </div>
+            
+            {/* <Footer /> */}
         </div>
     )
 } 
